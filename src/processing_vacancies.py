@@ -1,5 +1,6 @@
 import json
 from abc import ABC, abstractmethod
+from typing import Any
 
 
 class BaseProcessingVacancies(ABC):
@@ -30,7 +31,7 @@ class ProcessingVacancies(BaseProcessingVacancies):
         self.file_name = file_name
         super().__init__()
 
-    def read_vacancies(self):
+    def read_vacancies(self) -> (list, bool):
         """Чтение данных их файла json"""
         try:
             with open(self.file_name, "r", encoding="utf-8") as file:
@@ -44,12 +45,12 @@ class ProcessingVacancies(BaseProcessingVacancies):
         except json.JSONDecodeError:
             return False
 
-    def add_vacancies(self, file_worker):
+    def add_vacancies(self, file_worker: Any) -> None:
         """Запись данных в файл json"""
         with open(self.file_name, "w", encoding="utf-8") as file:
             file.write(json.dumps(file_worker, indent=4, ensure_ascii=False))
 
-    def del_vacancies(self):
+    def del_vacancies(self) -> None:
         """Удаление данных из файла"""
         with open(self.file_name, "w"):
             pass

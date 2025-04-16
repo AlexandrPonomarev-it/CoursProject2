@@ -21,7 +21,7 @@ class Vacancy:
             "vacancy_url": self.vacancy_url,
         }
 
-    def __valid_salary(self, salary):
+    def __valid_salary(self, salary: int) -> None:
         """Валидация данных по зарплате (есть данные о зарплате или они отсутствуют"""
         if type(salary) is int:
             self.salary = salary
@@ -47,7 +47,7 @@ class Vacancy:
             return "Зарплата не указана"
 
     @staticmethod
-    def add_vacancy_to_list(list_vac):
+    def add_vacancy_to_list(list_vac: list) -> list:
         """Вывод вакансии по указанным параметрам"""
         list_class_vacancy = []
         for vac in list_vac:

@@ -29,7 +29,7 @@ class GetHHVacancies(Parser, ABC):
         self.__vacancies = []
         super().__init__()
 
-    def __connect_to_api_status(self):
+    def __connect_to_api_status(self) -> bool:
         """Проверка соединения с адресом HH"""
         try:
             response = requests.get(self.__url)
@@ -39,7 +39,7 @@ class GetHHVacancies(Parser, ABC):
             print(f"Ошибка подключения: {e}")
             return False
 
-    def load_vacancies(self, keyword):
+    def load_vacancies(self, keyword: str) -> list:
         """Загрузка вакансий по ключевому слову с сайта HH"""
         if not self.__connect_to_api_status():
             return []
