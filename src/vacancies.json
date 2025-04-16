@@ -1,0 +1,278 @@
+[
+    {
+        "ID": "118844528",
+        "name": "Руководитель дистрибьюции (автомобили ZEEKR)",
+        "salary": {
+            "from": 40000000,
+            "to": 40000000,
+            "currency": "UZS",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт успешных продаж и управления продажами каско в сети автосалонов.",
+            "responsibility": "Разработка и реализация стратегии компании, также создание эффективной организационной структуры. Управление операционной деятельностью. Координация логистических процессов, включая закупку, хранение и..."
+        },
+        "url": "https://api.hh.ru/vacancies/118844528?host=hh.ru"
+    },
+    {
+        "ID": "118603555",
+        "name": "QA Middle / Middle + инженер",
+        "salary": {
+            "from": 180000,
+            "to": 250000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт на позиции QA инженера от 3х лет. Опыт тестирования высоконагруженных систем с микросервисной архитектурой. Уверенные знания SQL. ",
+            "responsibility": "Применяем ручное тестирование (часть ежедневной рутины автоматизирована на <highlighttext>Python</highlighttext> + Playright). Продукты сейчас находится на той стадии, когда они работают..."
+        },
+        "url": "https://api.hh.ru/vacancies/118603555?host=hh.ru"
+    },
+    {
+        "ID": "118811735",
+        "name": "Python developer",
+        "salary": {
+            "from": 345000,
+            "to": 480000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы с <highlighttext>Python</highlighttext> до 5 лет. -Опыт работы с Docker. -Опыт работы с FastAPI. -Глубокое понимание SQL. -",
+            "responsibility": "Разработка и поддержка микросервисной архитектуры. -Работа с базами данных для эффективного хранения и обработки данных. -Написание и поддержка юнит-тестов. -"
+        },
+        "url": "https://api.hh.ru/vacancies/118811735?host=hh.ru"
+    },
+    {
+        "ID": "118874213",
+        "name": "Backend-разработчик (Python)",
+        "salary": {
+            "from": 300000,
+            "to": 350000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт Backend-разработки на <highlighttext>Python</highlighttext> от 2 лет. Глубокие знания фреймворка Django. Опыт Frontend-разработки на React.js (уровень взаимодействия с...",
+            "responsibility": "Руководство командой разработчиков. Разработка новых и развитие существующих внутренних инструментов и корпоративных сервисов. Автоматизация рабочих процессов. Проектирование и построение модульных..."
+        },
+        "url": "https://api.hh.ru/vacancies/118874213?host=hh.ru"
+    },
+    {
+        "ID": "118807686",
+        "name": "QA-инженер",
+        "salary": {
+            "from": 150000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "snippet": {
+            "requirement": "Знание языков программирования Java или <highlighttext>Python</highlighttext> на уровне написания тестовых скриптов. Знание Linux на уровне пользователя. Знание инструментов для тестирования...",
+            "responsibility": "Выполнение ручного функционального тестирования интерфейсов (frontend) и REST API (backend). Проведение регрессионного тестирования, нагрузочных тестов. Развертывание ПО на тестовых стендах..."
+        },
+        "url": "https://api.hh.ru/vacancies/118807686?host=hh.ru"
+    },
+    {
+        "ID": "118736161",
+        "name": "Ручной тестировщик/middle Manual QA",
+        "salary": {
+            "from": 100000,
+            "to": 250000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "snippet": {
+            "requirement": "Опыт тестирования логики начислений, расчетов, комиссий — будет плюсом. Базовые знания автоматизации тестирования (<highlighttext>Python</highlighttext>, Selenium, requests) и желание развиваться в автоматизацию...",
+            "responsibility": "Разработка, поддержка и выполнение тест-кейсов, чек-листов, тест-планов. Тестирование новых функциональностей веб-приложения. Проведение регрессионного, интеграционного, функционального и..."
+        },
+        "url": "https://api.hh.ru/vacancies/118736161?host=hh.ru"
+    },
+    {
+        "ID": "118508149",
+        "name": "Manual QA Engineer",
+        "salary": {
+            "from": 80000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Знание REST. Знание SQL на уровне написания простых запросов. Знание теории тестирования и видов тестирования (функциональное, регрессионное, smoke, интеграционное). ",
+            "responsibility": "Тестирование web/backend. Написание и актуализация тестовой документации. Регистрация дефектов и контроль их устранения."
+        },
+        "url": "https://api.hh.ru/vacancies/118508149?host=hh.ru"
+    },
+    {
+        "ID": "118360980",
+        "name": "Тестировщик / QA Engineer",
+        "salary": {
+            "from": 80000,
+            "to": 100000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "snippet": {
+            "requirement": "Опыт тестирования web-приложений от 1 года. 2. Навыки разработки автотестов на <highlighttext>Python</highlighttext> (Selenium, Pytest, Unittest). 3. Опыт работы с...",
+            "responsibility": "2. Разрабатывать, запускать и поддерживать автотесты на <highlighttext>Python</highlighttext> (Selenium, Pytest и др.). 3. Разрабатывать тест-кейсы, тест-планы и поддерживать..."
+        },
+        "url": "https://api.hh.ru/vacancies/118360980?host=hh.ru"
+    },
+    {
+        "ID": "118783415",
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 100000,
+            "to": 200000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Скилы: aiogram, requests, SQLalchemy, alembic, poetry, redis, docker, git, taskiq. Опыт работы с rabitmq. Понимание принципов работы REST API. ",
+            "responsibility": "Разработка и поддержка Telegram-ботов на <highlighttext>Python</highlighttext> для автоматизации бизнес-процессов. Создание MVP-ботов для тестирования гипотез и оценки эффективности..."
+        },
+        "url": "https://api.hh.ru/vacancies/118783415?host=hh.ru"
+    },
+    {
+        "ID": "118863688",
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 100000,
+            "to": 100000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт коммерческой разработки на <highlighttext>Python</highlighttext> от 2 лет. - Написание и поддерживание Telegram ботов (aiogram, SQLAlchemy, Alembic, Redis, Pydantic, PostgreSQL, MySQL...",
+            "responsibility": "Разработка и поддержка backend-приложений на <highlighttext>Python</highlighttext>. - Оптимизация и рефакторинг существующего кода. - Интеграция с внешними API и сторонними сервисами. - "
+        },
+        "url": "https://api.hh.ru/vacancies/118863688?host=hh.ru"
+    },
+    {
+        "ID": "118934611",
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 90000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Базовые знания <highlighttext>Python</highlighttext> и желание развиваться в этом направлении. Понимание принципов объектно-ориентированного программирования. Способность работать в команде и эффективно...",
+            "responsibility": "Разработка и поддержка мобильных приложений и цифровых решений на <highlighttext>Python</highlighttext>. Участие в проектировании архитектуры программного обеспечения. Интеграция с внешними API..."
+        },
+        "url": "https://api.hh.ru/vacancies/118934611?host=hh.ru"
+    },
+    {
+        "ID": "118833565",
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 250000,
+            "to": 300000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "5+ лет коммерческого опыта в разработке веб-приложений с использованием FastAPI / Django / Flask. - Глубокие знания <highlighttext>Python</highlighttext> Core и стандартных...",
+            "responsibility": "Разрабатывать и сопровождать backend-приложения и сервисы на <highlighttext>Python</highlighttext> 3 с использованием FastAPI и Django. - Проектировать архитектуру с упором на..."
+        },
+        "url": "https://api.hh.ru/vacancies/118833565?host=hh.ru"
+    },
+    {
+        "ID": "118591608",
+        "name": "Python-разработчик",
+        "salary": {
+            "from": 200000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт коммерческой разработки от 3 лет на <highlighttext>Python</highlighttext>. Глубокие знания FastAPI и работы с асинхронностью (asyncio, multiprocessing, AioRedis). ",
+            "responsibility": "Разработка и оптимизация высоконагруженных сервисов с использованием <highlighttext>Python</highlighttext> (FastAPI). Проектирование архитектуры системы, обеспечение отказоустойчивости и горизонтального масштабирования. Разработка API и..."
+        },
+        "url": "https://api.hh.ru/vacancies/118591608?host=hh.ru"
+    },
+    {
+        "ID": "118362676",
+        "name": "Программист Python",
+        "salary": {
+            "from": 190000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт коммерческой разработки Back-end на <highlighttext>Python</highlighttext> от 2-го года. Знание фреймворка FastAPI. Знание принципов построения REST API. ",
+            "responsibility": "Созданием новых сервисов и улучшение существующего backend приложения на <highlighttext>Python</highlighttext>. Участвовать в анализе, проектировании и оценке технических решений вместе с..."
+        },
+        "url": "https://api.hh.ru/vacancies/118362676?host=hh.ru"
+    },
+    {
+        "ID": "118521301",
+        "name": "Backend-разработчик (Python), удалённо",
+        "salary": {
+            "from": 180000,
+            "to": 275000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт разработки веб-приложений на <highlighttext>Python</highlighttext> (желательно Flask, FastAPI, Django) от 2 лет. - Уверенное владение SQL и опытом работы с...",
+            "responsibility": "Разработка и поддержка серверной части приложения на <highlighttext>Python</highlighttext>. - Проектирование и оптимизация структуры базы данных. - Реализация эффективного взаимодействия между фронтендом и..."
+        },
+        "url": "https://api.hh.ru/vacancies/118521301?host=hh.ru"
+    },
+    {
+        "ID": "118195633",
+        "name": "Тестировщик/QA",
+        "salary": {
+            "from": 130000,
+            "to": null,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт работы тестировщиком от 1,5 лет. Опыт тестирования web-приложений. Опыт тестирования REST-API. Знание SQL. Опыт работы с...",
+            "responsibility": "Тестирование web-приложений и REST-API. Использование в работе SQL. Работа с системами контроля версий иTestrails. Тестирование новых фичей маркетплейса. "
+        },
+        "url": "https://api.hh.ru/vacancies/118195633?host=hh.ru"
+    },
+    "vacancy1",
+    "vacancy2",
+    {
+        "id": 1,
+        "name": "Engineer"
+    },
+    {
+        "ID": "118736161",
+        "name": "Ручной тестировщик/middle Manual QA (ВНЕ РФ)",
+        "salary": {
+            "from": 100000,
+            "to": 250000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "snippet": {
+            "requirement": "Опыт тестирования логики начислений, расчетов, комиссий — будет плюсом. Базовые знания автоматизации тестирования (<highlighttext>Python</highlighttext>, Selenium, requests) и желание развиваться в автоматизацию...",
+            "responsibility": "Разработка, поддержка и выполнение тест-кейсов, чек-листов, тест-планов. Тестирование новых функциональностей веб-приложения. Проведение регрессионного, интеграционного, функционального и..."
+        },
+        "url": "https://api.hh.ru/vacancies/118736161?host=hh.ru"
+    },
+    {
+        "ID": "119135774",
+        "name": "QA-специалист (Manual)",
+        "salary": {
+            "from": 100000,
+            "to": 120000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Опыт ведения нескольких проектов одновременно (желательно). Будет плюсом:  Опыт работы в финтехе.  Базовые знания <highlighttext>Python</highlighttext>, Java или JavaScript.",
+            "responsibility": "КодТех разрабатывает и поддерживает уникальные решения, которые помогают нашим клиентам находиться в авангарде бизнеса.  Тестирование backend, frontend, API, БД, mobile.  "
+        },
+        "url": "https://api.hh.ru/vacancies/119135774?host=hh.ru"
+    }
+]
