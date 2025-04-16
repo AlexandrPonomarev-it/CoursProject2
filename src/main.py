@@ -1,7 +1,6 @@
-
 from src.get_hh_vacancy import GetHHVacancies
-from src.utils import filter_vacancies, get_vacancies_by_salary, sort_vacancies, top_vacancies, print_vacancies, \
-    add_result_to_json_file
+from src.utils import (add_result_to_json_file, filter_vacancies, get_vacancies_by_salary, print_vacancies,
+                       sort_vacancies, top_vacancies)
 from src.vacancy import Vacancy
 
 # Экземпляр класса открытия вакансии с hh.ru
@@ -15,13 +14,13 @@ hh_vacancies = hh_api.load_vacancies(search_query)
 # Запись данных в формате класса вакансий
 vacancy = Vacancy.add_vacancy_to_list(hh_vacancies)
 
-#Удаление информации о вакансиях из файла
+# Удаление информации о вакансиях из файла
 # json_saver = ProcessingVacancies(vacancy, "r")
 # json_saver.del_vacancies()
 
 
 def user_interaction():
-    """ Функция для взаимодействия с пользователем"""
+    """Функция для взаимодействия с пользователем"""
 
     # Данные от пользователя для получения вакансий
     top_n = int
@@ -39,7 +38,6 @@ def user_interaction():
         if salary.isdigit():
             salary_range = int(salary)
 
-
     filtered_vacancies = filter_vacancies(vacancy, inp_filter_words)
 
     ranged_vacancies = get_vacancies_by_salary(filtered_vacancies, salary_range)
@@ -53,8 +51,6 @@ def user_interaction():
     return top_list_vacancies
 
 
-
 if __name__ == "__main__":
     ready_list_vacancy = user_interaction()
     add_result_to_json_file(ready_list_vacancy)
-

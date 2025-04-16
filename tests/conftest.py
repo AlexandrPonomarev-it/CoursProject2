@@ -10,8 +10,9 @@ def first_vacancy():
         name="Разработчик",
         salary=100000,
         requirement="Работа разработчиком",
-        vacancy_url="https://api.hh.ru/vacancies/1?host=hh.ru"
-        )
+        vacancy_url="https://api.hh.ru/vacancies/1?host=hh.ru",
+    )
+
 
 @pytest.fixture
 def second_vacancy():
@@ -20,8 +21,9 @@ def second_vacancy():
         name="Тестировщик",
         salary="90000",
         requirement="Работа тестировщиком",
-        vacancy_url="https://api.hh.ru/vacancies/2?host=hh.ru"
-        )
+        vacancy_url="https://api.hh.ru/vacancies/2?host=hh.ru",
+    )
+
 
 @pytest.fixture
 def third_vacancy():
@@ -30,13 +32,16 @@ def third_vacancy():
         name="Фронт-разработчик",
         salary=90000,
         requirement="Работа Фронт-разработчиком",
-        vacancy_url="https://api.hh.ru/vacancies/3?host=hh.ru"
-        )
+        vacancy_url="https://api.hh.ru/vacancies/3?host=hh.ru",
+    )
+
 
 @pytest.fixture
 def vac_list():
-    return {"ID": 1,
-            "name": "Разработчик",
-            "salary": 100000,
-            "snippet": "Работа разработчиком",
-            "url": "https://api.hh.ru/vacancies/1?host=hh.ru"}
+    return {
+        "ID": 1,
+        "name": "Разработчик",
+        "salary": 100000,
+        "snippet": "Работа разработчиком",
+        "url": "https://api.hh.ru/vacancies/1?host=hh.ru",
+    }
