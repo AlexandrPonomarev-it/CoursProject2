@@ -274,5 +274,20 @@
             "responsibility": "КодТех разрабатывает и поддерживает уникальные решения, которые помогают нашим клиентам находиться в авангарде бизнеса.  Тестирование backend, frontend, API, БД, mobile.  "
         },
         "url": "https://api.hh.ru/vacancies/119135774?host=hh.ru"
+    },
+    {
+        "ID": "119764438",
+        "name": "Тестировщик QA",
+        "salary": {
+            "from": 100000,
+            "to": 130000,
+            "currency": "RUR",
+            "gross": false
+        },
+        "snippet": {
+            "requirement": "Будет плюсом: – Опыт написания автотестов (UI и API), знание <highlighttext>Python</highlighttext> или JavaScript. – Владение инструментами для автоматизации (Selenium, Pytest, Playwright и...",
+            "responsibility": "Проводить ручное тестирование веб-приложения и backend-сервисов. – Разрабатывать и поддерживать автоматизированные тесты. – Составлять и актуализировать тест-кейсы, чек-листы. – "
+        },
+        "url": "https://api.hh.ru/vacancies/119764438?host=hh.ru"
     }
 ]

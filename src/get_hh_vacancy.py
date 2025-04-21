@@ -47,9 +47,7 @@ class GetHHVacancies(Parser, ABC):
 
         while self.__params.get("page") != 3:
             try:
-                response = requests.get(
-                    self.__url, headers=self.__headers, params=self.__params
-                )
+                response = requests.get(self.__url, headers=self.__headers, params=self.__params)
                 vacancies = response.json()["items"]
                 self.__vacancies.extend(vacancies)
                 self.__params["page"] += 1
