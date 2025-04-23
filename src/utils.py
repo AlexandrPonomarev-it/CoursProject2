@@ -1,4 +1,3 @@
-
 from src.processing_vacancies import ProcessingVacancies
 
 
@@ -12,10 +11,7 @@ def filter_vacancies(vacancies_list: list, filter_words: list) -> list:
                     if words.lower() in value.lower():
                         new_vacancy_list.append(vacancy)
                     elif type(value) is dict:
-                        if (
-                            words.lower() in value["requirement"].lower()
-                            or words in value["responsibility"].lower()
-                        ):
+                        if words.lower() in value["requirement"].lower() or words in value["responsibility"].lower():
                             new_vacancy_list.append(vacancy)
                         else:
                             continue
@@ -41,9 +37,7 @@ def get_vacancies_by_salary(vacancy_list: list, salary: int) -> list:
 
 def sort_vacancies(range_vacancies: list) -> list:
     """Сортировка вакансий по зарплате"""
-    vacancies_sort = sorted(
-        range_vacancies, key=lambda salary: salary["salary"]["from"], reverse=True
-    )
+    vacancies_sort = sorted(range_vacancies, key=lambda salary: salary["salary"]["from"], reverse=True)
     return vacancies_sort
 
 

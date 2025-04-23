@@ -1,6 +1,12 @@
 from src.get_hh_vacancy import GetHHVacancies
-from src.utils import (add_result_to_json_file, filter_vacancies, get_vacancies_by_salary, print_vacancies,
-                       sort_vacancies, top_vacancies)
+from src.utils import (
+    add_result_to_json_file,
+    filter_vacancies,
+    get_vacancies_by_salary,
+    print_vacancies,
+    sort_vacancies,
+    top_vacancies,
+)
 from src.vacancy import Vacancy
 
 # Экземпляр класса открытия вакансии с hh.ru
