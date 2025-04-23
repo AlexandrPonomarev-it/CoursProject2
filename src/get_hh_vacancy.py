@@ -1,22 +1,9 @@
-from abc import ABC, abstractmethod
 
 import requests
 
 
-class Parser(ABC):
-    """Базовый класс для работы с API подключением к HH"""
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Конструктор для создания экземпляров класса Parser"""
-        super().__init__()
-
-    @abstractmethod
-    def load_vacancies(self, keyword):
-        """Абстрактный метод для получения инвормации о вакансиях с HH"""
-        pass
-
-
-class GetHHVacancies(Parser, ABC):
+class GetHHVacancies:
     """
     Класс для работы с API HeadHunter
     """
