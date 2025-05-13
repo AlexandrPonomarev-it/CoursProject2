@@ -1,22 +1,9 @@
-from abc import ABC, abstractmethod
 
 import requests
 
 
-class Parser(ABC):
-    """Базовый класс для работы с API подключением к HH"""
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Конструктор для создания экземпляров класса Parser"""
-        super().__init__()
-
-    @abstractmethod
-    def load_vacancies(self, keyword):
-        """Абстрактный метод для получения инвормации о вакансиях с HH"""
-        pass
-
-
-class GetHHVacancies(Parser, ABC):
+class GetHHVacancies:
     """
     Класс для работы с API HeadHunter
     """
@@ -47,9 +34,7 @@ class GetHHVacancies(Parser, ABC):
 
         while self.__params.get("page") != 3:
             try:
-                response = requests.get(
-                    self.__url, headers=self.__headers, params=self.__params
-                )
+                response = requests.get(self.__url, headers=self.__headers, params=self.__params)
                 vacancies = response.json()["items"]
                 self.__vacancies.extend(vacancies)
                 self.__params["page"] += 1

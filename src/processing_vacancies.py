@@ -28,13 +28,13 @@ class ProcessingVacancies(BaseProcessingVacancies):
     def __init__(self, mode="a+", file_name="../src/vacancies.json"):
         """Конструктор для создания экземпляров класса ProcessingVacancies"""
         self.mode = mode
-        self.file_name = file_name
+        self.__file_name = file_name
         super().__init__()
 
     def read_vacancies(self) -> (list, bool):
         """Чтение данных их файла json"""
         try:
-            with open(self.file_name, "r", encoding="utf-8") as file:
+            with open(self.__file_name, "r", encoding="utf-8") as file:
                 data = json.load(file)
             if data:
                 return data
@@ -47,10 +47,10 @@ class ProcessingVacancies(BaseProcessingVacancies):
 
     def add_vacancies(self, file_worker: Any) -> None:
         """Запись данных в файл json"""
-        with open(self.file_name, "w", encoding="utf-8") as file:
+        with open(self.__file_name, "w", encoding="utf-8") as file:
             file.write(json.dumps(file_worker, indent=4, ensure_ascii=False))
 
     def del_vacancies(self) -> None:
         """Удаление данных из файла"""
-        with open(self.file_name, "w"):
+        with open(self.__file_name, "w"):
             pass
